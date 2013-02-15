@@ -43,4 +43,10 @@
       width: 33.33%;
     }
   }
+  .canvas {
+    position: relative;
+    img {
+      position: absolute;
+    }
+  }
 }

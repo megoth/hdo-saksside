@@ -44,3 +44,11 @@
   float: left;
   width: 33.33%;
 }
+/* line 46, ../../sass/unique/case.scss */
+.case-vizualization .canvas {
+  position: relative;
+}
+/* line 48, ../../sass/unique/case.scss */
+.case-vizualization .canvas img {
+  position: absolute;
+}
