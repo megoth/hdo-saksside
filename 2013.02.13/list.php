@@ -1,10 +1,13 @@
 <?php
+$is_child = true;
 include("../list.php");
 if (!isset($_GET["list"])) {
-return;
+    echo "<div class='page-sketches'><a href='?list'>+</a></div>";
+    return;
 }
 ?><div class="page-sketches">
     <ul class="nav">
         <?php walk($base_url, "..", false); ?>
+        <li><a href="?">-</a></li>
     </ul>
 </div>

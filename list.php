@@ -42,13 +42,15 @@ function walk($base_url, $path, $accept_index) {
     }
 }
 if (!isset($_GET["list"])) {
-return;
+    echo "<div class='page-sketches'><a href='?list'>+</a></div>";
+    return;
 }
-if (isset($already_printed)) {
-return;
+if (isset($is_child)) {
+    return;
 }
 ?><div class="page-sketches">
     <ul class="nav">
         <?php walk($base_url, ".", false); ?>
+        <li><a href="?">-</a></li>
     </ul>
 </div>
