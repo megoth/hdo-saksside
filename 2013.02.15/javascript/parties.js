@@ -1,5 +1,5 @@
 /*global _, $, d3, document, window*/
-(function (global, $, underscore) {
+(function (global, $) {
     "use strict";
     global.prepareData = function (data, width, height, limitAgainst, limitFor, rPartOfWidth) {
         var indexes = {},
@@ -25,10 +25,10 @@
             var slice = 2 * Math.PI / max[p.value],
                 angle = slice * indexes[p.value];
             indexes[p.value] += 1;
-            return underscore.extend({}, p, {
+            return $.extend({}, p, {
                 x: (p.value / 100 * width) + r * Math.sin(angle),
                 y: (height / 2) + r * Math.cos(angle) - (max[p.value] === 1 ? r : 0)
             });
         });
     };
-}(window || document, $, _));
+}(window || document, $));

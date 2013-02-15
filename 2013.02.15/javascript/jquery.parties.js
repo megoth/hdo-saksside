@@ -16,7 +16,6 @@
                 imgWidth = width / rPartOfWidth;
             $element.height(height);
             preparedData.forEach(function(party) {
-                console.log(party);
                 var img = create("img").attr("src", baseUrl + party.image).css({
                     "left": party.x - imgWidth / 2,
                     "top": party.y - imgWidth / 2,

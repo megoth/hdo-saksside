@@ -287,9 +287,7 @@
 <footer>
   <div class="container">Fot</div>
 </footer>
-<script src="<?php echo $base_url;?>javascript/lib/d3.v3.min.js" type="text/javascript"></script>
 <script src="<?php echo $base_url;?>javascript/lib/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="<?php echo $base_url;?>javascript/lib/underscore-1.4.3.min.js" type="text/javascript"></script>
 <script src="<?php echo $base_url;?>javascript/parties.js" type="text/javascript"></script>
 <script src="<?php echo $base_url;?>javascript/jquery.case.js" type="text/javascript"></script>
 <script src="<?php echo $base_url;?>javascript/jquery.parties.js" type="text/javascript"></script>
