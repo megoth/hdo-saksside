@@ -31,24 +31,25 @@
 /* line 35, ../../sass/unique/case.scss */
 .case-vizualization {
   font-weight: bold;
+  margin-bottom: 1em;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 39, ../../sass/unique/case.scss */
+/* line 40, ../../sass/unique/case.scss */
 .case-vizualization .axis {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 41, ../../sass/unique/case.scss */
+/* line 42, ../../sass/unique/case.scss */
 .case-vizualization .axis > span {
   float: left;
   width: 33.33%;
 }
-/* line 46, ../../sass/unique/case.scss */
+/* line 47, ../../sass/unique/case.scss */
 .case-vizualization .canvas {
   position: relative;
 }
-/* line 48, ../../sass/unique/case.scss */
+/* line 49, ../../sass/unique/case.scss */
 .case-vizualization .canvas img {
   position: absolute;
 }

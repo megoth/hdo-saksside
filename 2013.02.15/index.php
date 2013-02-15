@@ -60,6 +60,9 @@
         </div>
     </div> <!-- hdo-navbar -->
     <div id="hdo-content" class="container">
+        <div class="page-header">
+            <h1>Innføre universelt egenandelstak for tannhelseutgifter</h1>
+        </div>
         <div class="case-vizualization" id="PartyVisualization">
             <div class="canvas"></div>
             <div class="axis">
@@ -67,9 +70,6 @@
                 <span class="either">Både for og mot</span>
                 <span class="for">For</span>
             </div>
-        </div>
-        <div class="page-header">
-            <h1>Innføre universelt egenandelstak for tannhelseutgifter</h1>
         </div>
         <div class="block-content">
             <p>Tannlegebehandling dekkes ikke av folketrygden, med unntak av noen definerte sykdommer. Denne saken omhandler avstemninger for å innføre en universell makssum for tannhelseutgifter og utvide områdene hvor det gis refusjon.</p>
@@ -299,9 +299,50 @@
         limitAgainst = 33,
         limitFor = 66,
         rPartOfWidth = 12;
-    d3.json("<?php echo $asset_url;?>data/parties.json", function (data) {
-        $("#PartyVisualization").find(".canvas").parties(data, baseUrl, limitAgainst, limitFor, rPartOfWidth);
-    });
+    $("#PartyVisualization").find(".canvas").parties([
+         {
+             "party": "AP",
+             "color": "#da383f",
+             "image": "images/parties/ap.png",
+             "value": 70
+         },
+         {
+             "party": "H",
+             "color": "#0f658d",
+             "image": "images/parties/h.png",
+             "value": 40
+         },
+         {
+             "party": "FrP",
+             "color": "#393d87",
+             "image": "images/parties/frp.png",
+             "value": 30
+         },
+         {
+             "party": "KrF",
+             "color": "#efae52",
+             "image": "images/parties/krf.png",
+             "value": 80
+         },
+         {
+             "party": "SP",
+             "color": "#008767",
+             "image": "images/parties/sp.png",
+             "value": 80
+         },
+         {
+             "party": "SV",
+             "color": "#bb234a",
+             "image": "images/parties/sv.png",
+             "value": 80
+         },
+         {
+             "party": "V",
+             "color": "#81b45f",
+             "image": "images/parties/v.png",
+             "value": 80
+         }
+    ], baseUrl, limitAgainst, limitFor, rPartOfWidth);
     $("section.case-party").case();
 }( window || document, jQuery ));
 </script>
