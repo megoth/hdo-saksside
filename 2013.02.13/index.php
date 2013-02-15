@@ -299,11 +299,12 @@
         limitAgainst = 33,
         limitFor = 66,
         rPartOfWidth = 12;
-    d3.json("<?php echo $base_url;?>data/parties.json", function (data) {
+    d3.json("<?php echo $asset_url;?>data/parties.json", function (data) {
         $("#PartyVisualization").find(".canvas").parties(data, baseUrl, limitAgainst, limitFor, rPartOfWidth);
     });
     $("section.case-party").case();
 }( window || document, jQuery ));
 </script>
+<?php include("list.php"); ?>
 </body>
 </html>
