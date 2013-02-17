@@ -1,0 +1,19 @@
+/* line 1, ../../sass/base/votes.scss */
+.vote-for {
+  color: #468847;
+}
+
+/* line 4, ../../sass/base/votes.scss */
+.vote-against {
+  color: #B94A48;
+}
+
+/* line 7, ../../sass/base/votes.scss */
+.vote-absent {
+  color: #3A87AD;
+}
+
+/* line 10, ../../sass/base/votes.scss */
+.wide-table-header {
+  min-width: 80px;
+}
