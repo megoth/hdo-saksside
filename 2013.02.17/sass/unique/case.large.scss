@@ -1,6 +1,11 @@
 
 @import "../variables/dimension.large";
 
+.case-party {
+  .images img {
+    width: auto;
+  }
+}
 .case-visualization {
   $height: $dimension-container-width / 3 * 1em - 6em;
   .canvas {

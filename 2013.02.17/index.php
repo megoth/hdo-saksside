@@ -6,7 +6,7 @@
     <title>Holder de ord saksside - Sketch @ icanhasweb.net</title>
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $base_url;?>stylesheets/style.css" />
     <link rel="stylesheet" type="text/css" media="all and (min-width: 30em)" href="<?php echo $base_url;?>stylesheets/style.medium.css" />
-    <link rel="stylesheet" type="text/css" media="all and (min-width: 51em)" href="<?php echo $base_url;?>stylesheets/style.large.css" />
+    <link rel="stylesheet" type="text/css" media="all and (min-width: 48em)" href="<?php echo $base_url;?>stylesheets/style.large.css" />
     <!--[if lte IE 8]>
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>stylesheets/style.medium.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>stylesheets/style.large.css" />
@@ -226,7 +226,7 @@
                 </section>
             </div>
         </div>
-        <h3>Opposisjonspartier</h3>
+        <h3>Opposisjonspartiene</h3>
         <div class="case-party row-fluid">
             <div class="images span1">
                 <img alt="Høyre" src="<?php echo $asset_url;?>images/parties/h.png">

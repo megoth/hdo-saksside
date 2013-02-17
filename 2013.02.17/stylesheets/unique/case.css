@@ -11,18 +11,22 @@
   display: none;
 }
 /* line 19, ../../sass/unique/case.scss */
+.case-party .images img {
+  width: 32%;
+}
+/* line 22, ../../sass/unique/case.scss */
 .case-party > header + ul {
   display: none;
 }
 
-/* line 23, ../../sass/unique/case.scss */
+/* line 26, ../../sass/unique/case.scss */
 .case-visualization {
   font-weight: bold;
   margin-bottom: 1em;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 28, ../../sass/unique/case.scss */
+/* line 31, ../../sass/unique/case.scss */
 .case-visualization .canvas img {
   width: 14.28571%;
 }
