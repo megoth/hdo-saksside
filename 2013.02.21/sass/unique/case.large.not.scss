@@ -1,0 +1,44 @@
+
+@import "compass/utilities/general/clearfix";
+
+$num-parties: 7;
+.case-party {
+  @include clearfix;
+  .content,
+  .images {
+    float: left;
+    width: 100% / ($num-parties + 1);
+  }
+  .content {
+    width: 100% / ($num-parties + 1) * $num-parties;
+  }
+}
+.case-visualization {
+  > div {
+    @include clearfix;
+  }
+  .axis,
+  .canvas {
+    float: left;
+    width: 100% / ($num-parties + 1) * $num-parties;
+  }
+  .axis {
+    width: 100% / ($num-parties + 1);
+  }
+  .canvas {
+    @include clearfix;
+    .party {
+      float: left;
+      width: 100% / $num-parties;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .text {
+    display: none;
+  }
+  &.row-fluid > [class*="offset"] {
+    margin-left: 0;
+  }
+}
