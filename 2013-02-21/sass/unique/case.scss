@@ -1,0 +1,44 @@
+
+@import "compass/css3/border-radius";
+@import "compass/css3/text-shadow";
+@import "compass/utilities/general/clearfix";
+@import "../variables/color";
+
+.case-party {
+  &.ap h2 {
+    color: $color-party-ap;
+  }
+}
+.case-visualization {
+  margin-bottom: 1em;
+  .axis {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .canvas {
+    .ap {
+      color: $color-party-ap;
+    }
+    .frp {
+      color: $color-party-frp;
+    }
+    .h {
+      color: $color-party-h;
+    }
+    .krf {
+      color: $color-party-krf;
+    }
+    .sp {
+      color: $color-party-sp;
+    }
+    .sv {
+      color: $color-party-sv;
+    }
+    .v {
+      color: $color-party-v;
+    }
+    img {
+      width: 48px;
+    }
+  }
+}

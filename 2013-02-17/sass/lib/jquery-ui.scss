@@ -1,0 +1,8 @@
+
+@import "../../../../assets/sass/jquery-ui-1.10.1.custom";
+@import "../variables/color";
+
+.ui-widget-header {
+  border-color: $color-base;
+  background: lighten($color-base, 0.1);
+}

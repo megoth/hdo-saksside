@@ -1,0 +1,28 @@
+/* line 10, ../../sass/unique/case.scss */
+.case-party section.closed h4,
+.case-party section.closed .images img {
+  cursor: pointer;
+}
+/* line 13, ../../sass/unique/case.scss */
+.case-party section.closed h4 ~ *:not(.toggler) {
+  display: none;
+}
+/* line 17, ../../sass/unique/case.scss */
+.case-party section.closed.open h4 ~ *:not(.toggler) {
+  display: block;
+}
+
+/* line 23, ../../sass/unique/case.scss */
+.case-visualization {
+  margin-bottom: 1em;
+}
+/* line 25, ../../sass/unique/case.scss */
+.case-visualization .axis {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 30, ../../sass/unique/case.scss */
+.case-visualization .canvas img {
+  width: 14.28571%;
+}

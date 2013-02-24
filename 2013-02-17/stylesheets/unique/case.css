@@ -1,0 +1,32 @@
+/* line 9, ../../sass/unique/case.scss */
+.case-party .closed section {
+  display: none;
+}
+/* line 11, ../../sass/unique/case.scss */
+.case-party .closed section.open {
+  display: block;
+}
+/* line 15, ../../sass/unique/case.scss */
+.case-party .closed .basis {
+  display: none;
+}
+/* line 19, ../../sass/unique/case.scss */
+.case-party .images img {
+  width: 32%;
+}
+/* line 22, ../../sass/unique/case.scss */
+.case-party > header + ul {
+  display: none;
+}
+
+/* line 26, ../../sass/unique/case.scss */
+.case-visualization {
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 31, ../../sass/unique/case.scss */
+.case-visualization .canvas img {
+  width: 14.28571%;
+}
